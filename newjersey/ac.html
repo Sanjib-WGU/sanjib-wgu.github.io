@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discover Atlantic City</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Dosis:wght@400;700&family=Karla:wght@400;700&family=Nunito:wght@400;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="ac-style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <header class="wgu-header">
+        <div class="hamburger-menu">
+          <i class="fa-solid fa-bars" onclick="showNav()"></i>
+        </div>
+        <div class="discover-nj">
+          <h2>Visit New Jersey <h2>
+              <h4>The Garden State</h4>
+        </div>
+        <div class="logo-nj">
+          <img src="./images/logo.png " alt="nj logo" width="60px" />
+        </div>
+      </header>
+      <nav class="hide-nav">
+        <a href="index.html">
+          <div class="nav-link nav-home">Home <i class="fa-solid fa-house"></i>
+          </div>
+        </a>
+        <a href="history.html" target="_blank">
+          <div class="nav-link">History</div>
+        </a>
+        <a href="cities.html" target="_blank">
+          <div class="nav-link">Cities</div>
+        </a>
+        <a href="attractions.html" target="_blank">
+          <div class="nav-link">Attractions</div>
+        </a>
+        <a href="transport.html" target="_blank">
+          <div class="nav-link">Trasportations</div>
+        </a>
+        <a href="https://www.njpt.uscourts.gov/new-jersey-county-map" target="_blank">
+          <div class="nav-link">Map</div>
+        </a>
+        <a href="contact.html" target="_blank">
+          <div class="nav-link">Contact-Us</div>
+        </a>
+      </nav>
+      <main class="wgu-main">
+        <div class="main-heading">
+          <h3>Discover Atlantic City</h3>
+          <p>The resort City</p>
+        </div>
+        <section class="banner">
+          <img src="./images/ac-Croped.jpg" alt="nj banner" />
+        </section>
+        <section id="about-ac">
+          <div id="about-ac-header">
+            <h2>About Atlantic City</h2>
+          </div>
+          <div id="about-tc-content">
+            <ul>
+              <li>
+                <h3>History</h3>
+                <p> Atlantic City was originally inhabited by the Lenni-Lenape Native American tribe before English settlers arrived in the late 1670s. In the 18th century, the first idea arose to develop it into a resort town and beginning of 1853 the name "Atlantic City" was adopted and following year (March 1854) the city was incorporated. <em>(Source:https://www.britannica.com/ and https://governors.rutgers.edu/)</em>
+                </p>
+              </li>
+              <li>
+                <h3>Geography and Region</h3>
+                <p>Atlantic City is situated on narrow, sandy, 10-mile (16-km) long Absecon Island along the Atlantic Ocean. Atlantic City is classified as an <strong>Urban City</strong>, the gaming capital of the Northeast and one of America’s premier resort and entertainment destinations. Atlantic City is 60 miles from Philadelphia, 125 miles from New York and 175 miles from Washington, DC. <em>(Source:https://www.britannica.com/, https://www.atlanticcitynj.com/ and https://governors.rutgers.edu/) </em>
+                </p>
+              </li>
+              <li>
+                <h3>Economy</h3>
+                <p> Atlantic City is vibrant tourist destination. It is a perfect summer vacation where visitors find world-famous casinos and entertainment venues such as MGM Borgata, Hard Rock and Caesars naming the few which significantly contributes the economy and employment opportunities. In addition to 24-hour gaming options, Atlantic City offers world-class entertainment such as concerts and boxing to live sporting events, and High-voltage nightlife, located both inside and outside the casinos which keeps the attraction around the clock. <em>(Source:https://www.atlanticcitynj.com/)</em>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="census-table">
+          <div>
+            <table>
+              <caption>
+                <h3>Atlantic City Comparison to New Jersey (Source: Us Census)</h3>
+              </caption>
+              <tr>
+                <th>Census Topic</th>
+                <!-- <th width="340px">Census Topic</th> -->
+                <th>Atlantic City</th>
+                <th>New Jersey</th>
+                <th>% Comparison</th>
+              </tr>
+              <tr>
+                <td> Population Estimates, July 1, 2022, (V2022) </td>
+                <td>38,561</td>
+                <td>9,261,699</td>
+                <td>0.42%</td>
+              </tr>
+              <tr>
+                <td> Median household income (2021) </td>
+                <td>$35,188</td>
+                <td>$97,126</td>
+                <td>36.23%</td>
+              </tr>
+              <tr>
+                <td> Per capita income in past 12 months (2021) </td>
+                <td>$24,172</td>
+                <td>$50,995</td>
+                <td>47.4%</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+      </main>
+      <aside class="wgu-aside">
+        <div>
+          <img src="./images/ac-aside.jpg" alt="attraction picture" id="aside-img">
+        </div>
+      </aside>
+      <footer class="wgu-footer">@Copy-right 2023 by Sanjib Karki</footer>
+      <script src="ac-script.js"></script>
+    </div>
+  </body>
+</html>

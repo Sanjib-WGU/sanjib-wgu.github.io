@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popular Cities</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Dosis:wght@400;700&family=Karla:wght@400;700&family=Nunito:wght@400;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="cities.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <header class="wgu-header">
+        <div class="hamburger-menu">
+          <i class="fa-solid fa-bars" onclick="showNav()"></i>
+        </div>
+        <div class="discover-nj">
+          <h2>Visit New Jersey <h2>
+              <h4>The Garden State</h4>
+        </div>
+        <div class="logo-nj">
+          <img src="./images/logo.png " alt="nj logo" width="60px" />
+        </div>
+      </header>
+      <nav class="hide-nav">
+        <a href="index.html">
+          <div class="nav-link nav-home">Home <i class="fa-solid fa-house"></i>
+          </div>
+        </a>
+        <a href="history.html" target="_blank">
+          <div class="nav-link">History</div>
+        </a>
+        <a href="cities.html" target="_blank">
+          <div class="nav-link">Cities</div>
+        </a>
+        <a href="attractions.html" target="_blank">
+          <div class="nav-link">Attractions</div>
+        </a>
+        <a href="transport.html" target="_blank">
+          <div class="nav-link">Trasportations</div>
+        </a>
+        <a href="https://www.njpt.uscourts.gov/new-jersey-county-map" target="_blank">
+          <div class="nav-link">Map</div>
+        </a>
+        <a href="contact.html" target="_blank">
+          <div class="nav-link">Contact-Us</div>
+        </a>
+      </nav>
+      <main class="wgu-main">
+        <section id="section-city">
+          <table style="width:100%">
+            <!-- <caption><h3>Most Iconic Cities</h3></caption> -->
+            <tr>
+              <th>Trenton City</th>
+            </tr>
+            <tr>
+              <td>
+                <img src="./images/NJ-capitol.jpeg" alt="trenton city" width="100%">
+              </td>
+            </tr>
+            <tr>
+              <td>Trenton is the capital of New Jersey. Trenton is situated in the western part of the state of New Jersey, along the banks of the Delaware River which serves as the boundary between New Jersey and Pennsylvania. It is positioned in Mercer County. <button class="button">
+                  <a href="tc.html" target="_blank">
+                    <i class="fa-solid fa-link"></i> MORE </a>
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <th>Atlantic City</th>
+            </tr>
+            <tr>
+              <td>
+                <img src="./images/ac-Croped.jpg" alt="atlantic city" width="100%">
+              </td>
+            </tr>
+            <tr>
+              <td>Atlantic city is known as the resort city due to it boardwalks, beach and casinos. Atlantic City is situated on Absecon Island along the Atlantic Ocean. It is located in southeastern New Jersey, approximately 127 miles southwest of New York City and 64 miles southeast of Philadelphia. <button class="button">
+                  <a href="ac.html" target="_blank">
+                    <i class="fa-solid fa-link"></i> MORE </a>
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <th>Jersey City</th>
+            </tr>
+            <tr>
+              <td>
+                <img src="./images/Jersey_City.jpg" alt="Jersey_City" width="100%">
+              </td>
+            </tr>
+            <tr>
+              <td>Jersey City is a major financial hub, with a growing number of financial institutions, banks, and investment firms establishing a presence in the city. It is located in Hudson County, New Jersey, and is part of the New York metropolitan area. It is situated along the western bank of the Hudson River, directly across from Lower Manhattan in New York City. <button class="button">
+                  <a href="jc.html" target="_blank">
+                    <i class="fa-solid fa-link"></i> MORE </a>
+                </button>
+              </td>
+            </tr>
+          </table>
+        </section>
+      </main>
+      <aside>
+        <h4>There are more cities to visit in New Jersey. </h4>
+        <a href="https://visitnj.org/new-jersey-cities-regions" target="_blank">
+          <img src="./images/nj cities.jpg" alt="nj cities">
+        </a>
+      </aside>
+      <footer class="wgu-footer">@Copy-right 2023 by Sanjib Karki</footer>
+      <script src="cities.js"></script>
+    </div>
+  </body>
+</html>

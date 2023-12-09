@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Jersey's Attractions</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Dosis:wght@400;700&family=Karla:wght@400;700&family=Nunito:wght@400;800&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="attractions.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <header class="wgu-header">
+        <div class="hamburger-menu">
+          <i class="fa-solid fa-bars" onclick="showNav()"></i>
+        </div>
+        <div class="discover-nj">
+          <h2>Visit New Jersey</h2>
+          <h4>The Garden State</h4>
+        </div>
+        <div class="logo-nj">
+          <img src="./images/logo.png " alt="nj logo" width="60" />
+        </div>
+      </header>
+      <nav class="hide-nav">
+        <a href="index.html">
+          <div class="nav-link nav-home">
+            Home <i class="fa-solid fa-house"></i>
+          </div>
+        </a>
+        <a href="history.html" target="_blank">
+          <div class="nav-link">History</div>
+        </a>
+        <a href="cities.html" target="_blank">
+          <div class="nav-link">Cities</div>
+        </a>
+        <a href="attractions.html" target="_blank">
+          <div class="nav-link">Attractions</div>
+        </a>
+        <a href="transport.html" target="_blank">
+          <div class="nav-link">Trasportations</div>
+        </a>
+        <a
+          href="https://www.njpt.uscourts.gov/new-jersey-county-map"
+          target="_blank"
+        >
+          <div class="nav-link">Map</div>
+        </a>
+        <a href="contact.html" target="_blank">
+          <div class="nav-link">Contact-Us</div>
+        </a>
+      </nav>
+      <main class="wgu-main">
+        <section id="section-header">
+          <h2>Attractions - Things to Do</h2>
+        </section>
+        <section id="section-content">
+          <div>
+            New Jersey is a state with a diverse range of tourist attractions,
+            offering everything from beautiful beaches and historic sites to
+            cultural events and outdoor activities. Here are some notable
+            tourist attractions in New Jersey:
+            <h3>Liberty State Park:</h3>
+            Home to Liberty Science Center and the Liberty Science Center
+            Aquarium. Offers stunning views of the Statue of Liberty, Ellis
+            Island, and the Manhattan skyline.
+            <h3>The Jersey Shore:</h3>
+            A popular coastal region with a variety of beach towns, including
+            Seaside Heights, Point Pleasant Beach, and Asbury Park. Each town
+            has its own unique character, attractions, and beach activities.
+            <h3>Grounds for Sculpture:</h3>
+            An outdoor sculpture park in Hamilton Township, featuring
+            contemporary sculptures in a landscaped setting. A unique and
+            immersive art experience for visitors.
+            <h3>Delaware Water Gap National Recreation Area:</h3>
+            A picturesque area along the Delaware River offering hiking,
+            camping, and water activities. Scenic views, waterfalls, and outdoor
+            recreation opportunities abound. <br />
+            <h3 class="offcial-site">Visit Official Website</h3>
+            <button class="button">
+              <a href="https://visitnj.org/things-to-do" target="_blank">
+                <i class="fa-solid fa-link"></i> WEBSITE
+              </a>
+            </button>
+          </div>
+        </section>
+      </main>
+      <aside>
+        <h3>Kids Attractions</h3>
+        <a href="https://visitnj.org/nj/events/children" target="_blank">
+          <img
+            src="./images/kids attractions.jpg"
+            alt="kids photo"
+            class="kids-img"
+          />
+        </a>
+      </aside>
+      <footer class="wgu-footer">@Copy-right 2023 by Sanjib Karki</footer>
+      <script src="attractions.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact-Us</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Dosis:wght@400;700&family=Karla:wght@400;700&family=Nunito:wght@400;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="contact-style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <header class="wgu-header">
+        <div class="hamburger-menu">
+          <i class="fa-solid fa-bars" onclick="showNav()"></i>
+        </div>
+        <div class="discover-nj">
+          <h2>Visit New Jersey <h2>
+              <h4>The Garden State</h4>
+        </div>
+        <div class="logo-nj">
+          <img src="./images/logo.png " alt="nj logo" width="60px" />
+        </div>
+      </header>
+      <nav class="hide-nav">
+        <a href="index.html">
+          <div class="nav-link nav-home">Home <i class="fa-solid fa-house"></i>
+          </div>
+        </a>
+        <a href="history.html" target="_blank">
+          <div class="nav-link">History</div>
+        </a>
+        <a href="cities.html" target="_blank">
+          <div class="nav-link">Cities</div>
+        </a>
+        <a href="attractions.html" target="_blank">
+          <div class="nav-link">Attractions</div>
+        </a>
+        <a href="transport.html" target="_blank">
+          <div class="nav-link">Trasportations</div>
+        </a>
+        <a href="https://www.njpt.uscourts.gov/new-jersey-county-map" target="_blank">
+          <div class="nav-link">Map</div>
+        </a>
+        <a href="contact.html" target="_blank">
+          <div class="nav-link">Contact-Us</div>
+        </a>
+      </nav>
+      <main class="wgu-main">
+        <div id="form-container">
+          <form action="" onsubmit="return validateForm()">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="first name" required>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="last name" required>
+            <label for="email1">Email</label>
+            <input type="email" id="email1" name="email1" placeholder="your@mail.com" required>
+            <label for="email1">Re-type Email</label>
+            <input type="email" id="email2" name="email2" placeholder="re-type your@mail.com" required>
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="write something.." style="height:150px" required></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </main>
+      <aside>
+        <div id="follow-us">
+          <h5>Follow US</h5>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </aside>
+      <footer class="wgu-footer">@Copy-right 2023 by Sanjib Karki</footer>
+      <script src="contact-script.js"></script>
+    </div>
+  </body>
+</html>
